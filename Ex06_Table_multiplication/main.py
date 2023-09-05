@@ -11,7 +11,7 @@ print()
 print("-"*max_number*nb_padding_chars)
 
 # imprimer la table de multiplication
-for i in range(1, max_number + 1):
+for i in range(1, 10 + 1):
     for j in range(1, max_number + 1):
         print(f"{i*j:{nb_padding_chars}}", end='')
     print()

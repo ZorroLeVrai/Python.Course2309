@@ -10,9 +10,7 @@ def lire_secret():
     # secret = fichier.read()
     # fichier.close()
     with open(nom_fichier, "r") as fichier:
-        secret = fichier.read()
-
-    return secret
+        return fichier.read()
 
 
 def ecriture_secret(secret):

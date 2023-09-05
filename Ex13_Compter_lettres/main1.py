@@ -1,7 +1,7 @@
 def compter_lettre_a(texte):
     nb_lettres = 0
-    for lettre in texte:
-        if lettre == "a":
+    for lettre in texte.upper():
+        if lettre == "A":
             nb_lettres += 1
     return nb_lettres
 
