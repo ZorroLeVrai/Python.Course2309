@@ -5,6 +5,7 @@ nom_fichier = "produit.csv"
 delimiteur_csv = ";"
 
 def ajouter_produit(titre, prix, stock):
+    """Commentaire Python"""
     fichier_existe = os.path.exists(nom_fichier)
 
     with open(nom_fichier, "at", newline="", encoding="latin1") as fichier:
