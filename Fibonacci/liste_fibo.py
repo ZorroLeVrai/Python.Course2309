@@ -11,4 +11,4 @@ def create_fibo(n):
 
     return result
     
-print(create_fibo(15))
+print(create_fibo(4))
