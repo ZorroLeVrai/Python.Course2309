@@ -13,7 +13,7 @@ def fizz_buzz(n):
         return result
     
 def fizz_buzz2(n):
-    if n % 3 and n % 5 == 0:
+    if n % 3 == 0 and n % 5 == 0:
         return "FizzBuzz"
     elif n % 3 == 0:
         return "Fizz"
@@ -41,8 +41,8 @@ def input_int(message):
         except:
             print("Vous devez saisir un entier\n")
 
-
-nb_depart = input_int("Saisissez le nombre de départ:")
-nb_fin = input_int("Saisissez le nombre de fin:")
-fizzBuzz_list = create_fb_list(nb_depart, nb_fin)
-print_in_file(fizzBuzz_list, file_name)
+if __name__ == "__main__":
+    nb_depart = input_int("Saisissez le nombre de départ:")
+    nb_fin = input_int("Saisissez le nombre de fin:")
+    fizzBuzz_list = create_fb_list(nb_depart, nb_fin)
+    print_in_file(fizzBuzz_list, file_name)
