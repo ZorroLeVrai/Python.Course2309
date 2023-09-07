@@ -9,7 +9,8 @@ def fizz_buzz(n):
     return result if result else str(n)
 
 def create_fb_list(debut, fin):
-    return list(map(lambda n:fizz_buzz(n),range(debut, fin+1)))
+    #return list(map(lambda n:fizz_buzz(n),range(debut, fin+1)))
+    return [fizz_buzz(el) for el in range(debut, fin+1)]
 
 def print_in_file(text, file_name):
     with open(file_name, "wt") as file:
