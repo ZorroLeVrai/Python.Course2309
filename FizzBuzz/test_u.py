@@ -12,6 +12,5 @@ class TestFizzBuzz(unittest.TestCase):
     def test_fizzBuzz(self):
         self.assertEqual(create_fb_list(2,4), [2, "Fizz", 4])
 
-
 if __name__ == "__main__":
     unittest.main()
