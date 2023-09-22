@@ -1,0 +1,28 @@
+{
+  "tva": {
+    "valeurs": [
+      {
+        "codePays": "FR",
+        "taux": 20
+      },
+      {
+        "codePays": "DE",
+        "taux": 19
+      },
+      {
+        "codePays": "ES",
+        "taux": 21
+      },
+      {
+        "codePays": "IT",
+        "taux": 22
+      },
+      {
+        "codePays": "BE",
+        "taux": 21
+      }
+    ],
+    "defaut": 25
+  },
+  "codePays": "FR"
+}
