@@ -7,5 +7,4 @@ population_cible = float(input("Entrez la population cible: "))
 
 nb_annees = log(population_cible / population_initiale) / \
     log(1 + taux_accroissement / 100)
-print(
-    f"Il faut exactement {nb_annees:0.2f} pour atteindre ou dépasser la population cible")
+print(f"Il faut exactement {nb_annees:0.2f} pour atteindre ou dépasser la population cible")
